@@ -50,12 +50,6 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal106 {
 		return root;
 	}
 	
-	public void TreeNode(TreeNode root) {
-		if(root == null) return;
-		logger.info(root.val + "");
-		TreeNode(root.left);
-		TreeNode(root.right);
-	}
 	
 	public static void main(String[] args) {
 		int inorder[] ={1, 2, 3, 4};

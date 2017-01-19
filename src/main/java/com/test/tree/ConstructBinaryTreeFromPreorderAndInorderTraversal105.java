@@ -1,7 +1,5 @@
 package com.test.tree;
 
-import javax.swing.plaf.metal.MetalIconFactory.TreeLeafIcon;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
